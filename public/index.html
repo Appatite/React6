@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>React3</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.2.0/react.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.2.0/react-dom.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.16/browser.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>      
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800,600' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div class="container-fluid" id="main">
+            <div class="row">
+
+                <div class="col-xs-12" id="main">
+                    <div id="threeDiv"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class ="" id="controls">
+                    <div id="label-holder">
+                        <div class="three-label">Size</div>
+                        <div class="three-label">Color</div>
+                    </div>
+                    <div id="content"></div>
+                </div>
+
+            </div>
+        </div>
+
+        <script src="js/three.js"></script>
+        <script src="js/three/src/renderers/Projector.js"></script>
+        <script src="js/three/src/renderers/CanvasRenderer.js"></script>
+
+        <script src="js/three/examples/js/libs/stats.min.js"></script>
+        <script src="js/three/examples/js/libs/tween.min.js"></script>
+
+        <script src="js/myOwnThree.js"></script>
+        <script type="text/babel"  src="js/slider.js"></script>
+
+        <script> document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+
+    </body>
+</html>
